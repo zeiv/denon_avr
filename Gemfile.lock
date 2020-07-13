@@ -1,0 +1,34 @@
+PATH
+  remote: .
+  specs:
+    denon_avr (0.1.0)
+      httparty
+      nokogiri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    mini_portile2 (2.4.0)
+    multi_xml (0.6.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  byebug
+  denon_avr!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.3
